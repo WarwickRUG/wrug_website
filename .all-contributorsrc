@@ -42,6 +42,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jamestripp",
+      "name": "James Tripp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5781056?v=4",
+      "profile": "https://warwick.ac.uk/fac/arts/research/digitalhumanities/team/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
