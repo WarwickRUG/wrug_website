@@ -800,7 +800,23 @@
 
           /*-- Additional custom styles --*/
           /* Add any additional CSS rules below                      */
-          </style>
+
+          /* Use grid https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout */
+          .people-gallery {
+            display: grid; 
+            gap: 10px; /* gap between boxes */
+            /* fit as many fixed-width cols as possible */
+            grid-template-columns: repeat( auto-fit, 225px );
+            /* fix row height as 200 px */
+            grid-auto-rows: 200px;
+            text-align: center;
+          }
+
+          /* for testing grid
+          .people-gallery > div {
+            background-color: lime;
+          }
+           */</style>
           <style type="text/css">
           /* base style */
 
@@ -1027,11 +1043,11 @@
         <div class="d-flex flex-column vh-100 border-left"></div>
         <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
           <div class="my-5" id="content">
-            <p>Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome</p>
-            <p>Warwick R User Group meets every 2–4 weeks to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.</p>
-            <p>Everyone is welcome, from across or outside the university and regardless of R programming experience. For further information, visit our Meetup.com page or e-mail Heather Graham or James Tripp.</p>
+            <p>Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting.</p>
+            <p>Warwick R User Group meets every 2 months to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.</p>
+            <p>Everyone is welcome, regardless of R programming experience, from across or outside Warwick University. For further information, visit our <a href="https://www.meetup.com/WarwickRUG">Meetup.com</a> page or contact a member of the <a href="about#committee">WRUG committee</a>.</p>
             <hr />
-            <p>Warwick R User Group is supported by the <a href="https://www.r-consortium.org/">R Consortium</a>. We follow the R Consortium and <a href="https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct">R Community code of conduct</a>.</p>
+            <p>Warwick R User Group is supported by the <a href="https://www.r-consortium.org/">R Consortium</a>. We follow the R Consortium <a href="https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct">R Community code of conduct</a>.</p>
           </div>
         </div>
       </div>
@@ -1071,11 +1087,11 @@
               </div>
             </div>
             <div class="p pt-4 px-5">
-              <p>Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome</p>
-              <p>Warwick R User Group meets every 2–4 weeks to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.</p>
-              <p>Everyone is welcome, from across or outside the university and regardless of R programming experience. For further information, visit our Meetup.com page or e-mail Heather Graham or James Tripp.</p>
+              <p>Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting.</p>
+              <p>Warwick R User Group meets every 2 months to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.</p>
+              <p>Everyone is welcome, regardless of R programming experience, from across or outside Warwick University. For further information, visit our <a href="https://www.meetup.com/WarwickRUG">Meetup.com</a> page or contact a member of the <a href="about#committee">WRUG committee</a>.</p>
               <hr />
-              <p>Warwick R User Group is supported by the <a href="https://www.r-consortium.org/">R Consortium</a>. We follow the R Consortium and <a href="https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct">R Community code of conduct</a>.</p>
+              <p>Warwick R User Group is supported by the <a href="https://www.r-consortium.org/">R Consortium</a>. We follow the R Consortium <a href="https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct">R Community code of conduct</a>.</p>
             </div>
         </div>
       </div>

@@ -89,27 +89,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Warwick R User Group: About us</title>
 
-  <meta property="description" itemprop="description" content="Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome."/>
+  <meta property="description" itemprop="description" content="Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting."/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Warwick R User Group: About us"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome."/>
+  <meta property="og:description" content="Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Warwick R User Group"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Warwick R User Group: About us"/>
-  <meta property="twitter:description" content="Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome."/>
+  <meta property="twitter:description" content="Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About us"]},{"type":"character","attributes":{},"value":["Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome."]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About us"]},{"type":"character","attributes":{},"value":["Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2206,7 +2206,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  </style>
+
+  /* Use grid https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout */
+  .people-gallery {
+    display: grid; 
+    gap: 10px; /* gap between boxes */
+    /* fit as many fixed-width cols as possible */
+    grid-template-columns: repeat( auto-fit, 225px );
+    /* fix row height as 200 px */
+    grid-auto-rows: 200px;
+    text-align: center;
+  }
+
+  /* for testing grid
+  .people-gallery > div {
+    background-color: lime;
+  }
+   */</style>
   <style type="text/css">
   /* base style */
 
@@ -2382,7 +2398,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About us","description":"Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome.","authors":[]}
+{"title":"About us","description":"Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2413,17 +2429,44 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>About us</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome.</p></p>
+<p><p>Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting.</p></p>
 </div>
 
 
 <div class="d-article">
-<p>Warwick R User Group meets every 2–4 weeks to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.</p>
-<p>Everyone is welcome, from across or outside the university and regardless of R programming experience. For further information, visit our Meetup.com page or e-mail Heather Graham or James Tripp.</p>
-<figure>
-<img src="https://www.r-consortium.org/wp-content/uploads/sites/13/2016/09/RConsortium_Horizontal_Pantone.png" alt="R Consortium Logo" /><figcaption aria-hidden="true">R Consortium Logo</figcaption>
-</figure>
-<p>Warwick R User Group is supported by the <a href="https://www.r-consortium.org/">R Consortium</a>. We follow the R Consortium and <a href="https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct">R Community code of conduct</a>.</p>
+<p>Warwick R User Group meets every 2 months to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.</p>
+<p>Everyone is welcome, regardless of R programming experience, from across or outside Warwick University. For further information, visit our Meetup.com page or contact a member of the <a href="about#committee">WRUG committee</a>.</p>
+<h2 id="committee">Committee</h2>
+<div class="people-gallery">
+<div id="person1">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="media/reshot-icon-human-person-6P2MCTEQ95.svg" alt="Generic person icon" style="width:55%"/> <br/><b> Carlos Camara Menoyo </b><br/></p>
+</div>
+</div>
+<div id="person2">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="media/reshot-icon-human-person-6P2MCTEQ95.svg" alt="Generic person icon" style="width:55%"/> <br/><b> Aditi Shenvi </b><br/></p>
+</div>
+</div>
+<div id="person3">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="media/reshot-icon-human-person-6P2MCTEQ95.svg" alt="Generic person icon" style="width:55%"/> <br/><b> Chris Mainey </b><br/></p>
+</div>
+</div>
+<div id="person4">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="media/reshot-icon-human-person-6P2MCTEQ95.svg" alt="Generic person icon" style="width:55%"/> <br/><b> James Tripp </b><br/></p>
+</div>
+</div>
+<div id="person5">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="media/heather_turner.jpg" alt="Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses." style="width:55%"/> <br/><b> Heather Turner </b><br/> <a href="https://warwick.ac.uk/heatherturner" target="_blank"> <img src="media/reshot-icon-link-TPKSVGQNXF.svg" height="30" style="margin:2px; vertical-align:middle;" border="0"/> </a> <a href="mailto:h.turner.1@warwick.ac.uk"> <img src="media/reshot-icon-email-P9WA8LS724.svg" height="30" style="margin:2px; vertical-align:middle;" border="0"/> </a></p>
+</div>
+</div>
+</div>
+<h2 id="support">Support</h2>
+<p><img src= "https://www.r-consortium.org/wp-content/uploads/sites/13/2016/09/RConsortium_Horizontal_Pantone.png" alt = "R Consortium Logo"></p>
+<p>Warwick R User Group is supported by the <a href="https://www.r-consortium.org/">R Consortium</a>. We follow the R Consortium <a href="https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct">R Community code of conduct</a>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
