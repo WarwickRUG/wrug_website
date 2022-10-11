@@ -1,19 +1,64 @@
 ---
 title: "About us"
 description: |
-  Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting. Whether you are just learning R for the first time or are an expert R user, all are welcome.
+  Warwick R-user group is for everybody interested in R, the programming language for statistical computing, data science, visualisation and reproducible reporting.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
 ```
 
-Warwick R User Group meets every 2–4 weeks to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.
+Warwick R User Group meets every 2 months to discuss R-related topics. At each session, speakers present interesting R packages (and how to make your own), share tips and tricks and offer advice to new R users.
 
-Everyone is welcome, from across or outside the university and regardless of R programming experience. For further information, visit our Meetup.com page or e-mail Heather Graham or James Tripp.
+Everyone is welcome, regardless of R programming experience, from across or outside Warwick University. For further information, visit our Meetup.com page or contact a member of the [WRUG committee](about#committee).
+
+## Committee
+
+::: {.people-gallery}
+
+::: {#person1}
+```{r, results = "asis"}
+person_info(name = "Carlos Camara Menoyo")
+```
+:::
+
+::: {#person2}
+```{r, results = "asis"}
+person_info(name = "Aditi Shenvi")
+```
+:::
+
+::: {#person3}
+```{r, results = "asis"}
+person_info(name = "Chris Mainey")
+```
+:::
+
+::: {#person4}
+```{r, results = "asis"}
+person_info(name = "James Tripp")
+```
+:::
+
+::: {#person5}
+```{r, results = "asis"}
+person_info(name = "Heather Turner",
+            pic = "media/heather_turner.jpg",
+            alt = "Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses.",
+            website = "https://warwick.ac.uk/heatherturner",
+            email = "h.turner.1@warwick.ac.uk")
+```
+:::
+
+:::
 
 
-![R Consortium Logo](https://www.r-consortium.org/wp-content/uploads/sites/13/2016/09/RConsortium_Horizontal_Pantone.png)
+
+
+## Support
+
+<img src= "https://www.r-consortium.org/wp-content/uploads/sites/13/2016/09/RConsortium_Horizontal_Pantone.png" alt = "R Consortium Logo">
 
 Warwick R User Group is supported by the [R Consortium](https://www.r-consortium.org/).
-We follow the R Consortium and [R Community code of conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct).
+We follow the R Consortium [R Community code of conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct).

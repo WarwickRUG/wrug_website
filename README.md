@@ -3,7 +3,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Warwick R User Group website, created using [`Distill`](https://pkgs.rstudio.com/distill/index.html)
+Warwick R User Group website, created using [`Distill`](https://pkgs.rstudio.com/distill/index.html).
+
+Some icons obtained from [Reshot](https://www.reshot.com/).
 
 ## Installation
 
