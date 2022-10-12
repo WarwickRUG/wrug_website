@@ -19,7 +19,12 @@ Everyone is welcome, regardless of R programming experience, from across or outs
 
 ::: {#person1}
 ```{r, results = "asis"}
-person_info(name = "Carlos Camara Menoyo")
+person_info(name = "Carlos Cámara-Menoyo",
+            pic = "media/carlos_camara.jpg",
+            alt = "Carlos Cámara smiling. He's a white man in his 40s starting to lose his dark hair",
+            website = "https://carloscamara.es/en",
+            email = "carlos.camara@warwick.ac.uk"
+            )
 ```
 :::
 
