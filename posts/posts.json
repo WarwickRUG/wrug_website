@@ -1,6 +1,26 @@
 [
   {
-    "path": "posts/2022-08-16-2022-07-14-dependencies/",
+    "path": "posts/2022-09-15-R-and-Docker/",
+    "title": "R and Docker",
+    "description": "In this online event, we continue the reproducibility theme from our last meetup, with James Tripp introducing Docker containers and how they can be used with R. See full details below.",
+    "author": [
+      {
+        "name": "James Tripp",
+        "url": "https://jamestripp.net"
+      }
+    ],
+    "date": "2022-09-15",
+    "categories": [
+      "talks",
+      "reproducibility"
+    ],
+    "contents": "\nIn this online event, we continue the reproducibility theme from our\nlast meetup, with James Tripp introducing Docker containers and how they\ncan be used with R. See full details below.\nSpeaker James Tripp, Senior Research Software\nEngineer, Information and Digital Group, University of Warwick\nAbstract Docker is a container technology which\nallows you to specify and build a compute environment. You can run the\nenvironment on your local machine and both the instructions for creating\nthe environment and the environment itself can be shared. In this talk I\nwill (a) introduce containers, (b) discuss a worked examples of using\nDocker with R, and (c) consider how containers can help us do better\nresearch. Hopefully this presentation will help those of you who have\nnever used Docker to consider if you want to use Docker in your own work\nand where to start.\nResources\nSlides\nSource code\n\n\n\n",
+    "preview": "posts/2022-09-15-R-and-Docker/figure.png",
+    "last_modified": "2022-10-19T13:41:11+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-07-14-dependencies/",
     "title": "Managing R script dependencies: automagic and renv",
     "description": "In this first session of the reproducibility series, we introduce two methods to deal with library dependencies: {automagic} and {renv}",
     "author": [
@@ -14,13 +34,13 @@
       "talks",
       "reproducibility"
     ],
-    "contents": "\nAt the end of our previous presentation\nby Iain Emsley on code review we had an interesting discussion on\nthe need for reproducibility. This talk introduces the concept of\nreproducibility and focuses on one of it’s many facets: that of managing\nR script’s dependencies.\nIn order to do so, two different methods will be presented, compared\nand discussed: the simple yet works-out-of-the-box {automagic} and the\nmore complex, yet backed up by RStudio, {renv}\nAt the end of the session, points in common as well as limitations\nwill be hihglighted, hopefully leading to a discussion and opening the\ndoor for the second talk of the reproducibility series.\nResources\nSlides\nSource\ncode\n\n\n\n",
-    "preview": "posts/2022-08-16-2022-07-14-dependencies/figure.png",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "contents": "\nAt the end of our previous\npresentation by Iain Emsley on code review we had an interesting\ndiscussion on the need for reproducibility. This talk introduces the\nconcept of reproducibility and focuses on one of it’s many facets: that\nof managing R script’s dependencies.\nIn order to do so, two different methods will be presented, compared\nand discussed: the simple yet works-out-of-the-box {automagic} and the\nmore complex, yet backed up by RStudio, {renv}\nAt the end of the session, points in common as well as limitations\nwill be hihglighted, hopefully leading to a discussion and opening the\ndoor for the second talk of the reproducibility series.\nResources\nSlides\nSource\ncode\n\n\n\n",
+    "preview": "posts/2022-07-14-dependencies/figure.png",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
-    "path": "posts/2022-05-25-2022-05-17-code-review/",
+    "path": "posts/2022-05-17-code-review/",
     "title": "Code Review",
     "description": {},
     "author": [
@@ -34,9 +54,9 @@
       "talks",
       "reviews"
     ],
-    "contents": "\nResources:\nTalk slides\n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -54,9 +74,9 @@
       "talks",
       "dataviz"
     ],
-    "contents": "\nResources:\nTalk slides\nbnmonitor package on CRAN\n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides\r\nbnmonitor package on CRAN\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-03-09-bnmonitorpackage/resources/bnmonitor_preview.png",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -74,9 +94,9 @@
       "talks",
       "dataviz"
     ],
-    "contents": "\nResources:\nTalk slides\n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-03-09-nationalgrid/resources/preview.png",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -101,9 +121,9 @@
     "categories": [
       "announcements"
     ],
-    "contents": "\nAfter some time without much activity, we’re back with plenty of ideas!\n\n\n\n",
+    "contents": "\r\nAfter some time without much activity, we’re back with plenty of ideas!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -121,9 +141,9 @@
       "talks",
       "dataviz"
     ],
-    "contents": "\nResources:\nTalk slides\nggplot2 package documentation\nggChernoff package on GitHub\n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides\r\nggplot2 package documentation\r\nggChernoff package on GitHub\r\n\r\n\r\n\r\n",
     "preview": "posts/2017-02-16-grammar-graphics/figure.png",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -141,9 +161,9 @@
       "talks",
       "dataviz"
     ],
-    "contents": "\nResources:\nTalk slides\nanimation package on CRAN\nanimation package on github\n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides\r\nanimation package on CRAN\r\nanimation package on github\r\n\r\n\r\n\r\n",
     "preview": "https://assets.yihui.org/figures/animation/example/grad-desc/demo-a.gif",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -161,9 +181,9 @@
       "talks",
       "dataviz"
     ],
-    "contents": "\nResources:\nTalk slides \nRelevant paper: Error Bars Considered Harmful \n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides \r\nRelevant paper: Error Bars Considered Harmful \r\n\r\n\r\n\r\n",
     "preview": "https://i.dailymail.co.uk/i/pix/2010/11/08/article-1327845-0BF704CC000005DC-414_468x286.jpg",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -181,9 +201,9 @@
       "talks",
       "dataviz"
     ],
-    "contents": "\nResources:\nTalk slides\nemojifont package on CRAN\nemoGG package on GitHub\n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides\r\nemojifont package on CRAN\r\nemoGG package on GitHub\r\n\r\n\r\n\r\n",
     "preview": "posts/2017-01-19-emojiplots/resources/emoji_plots.png",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   },
   {
@@ -201,9 +221,9 @@
       "talks",
       "shiny"
     ],
-    "contents": "\nResources:\nTalk slides\nexample Shiny app \nShiny official web site\nshinyapps.io — share your Shiny applications online\n\n\n\n",
+    "contents": "\r\nResources:\r\nTalk slides\r\nexample Shiny app \r\nShiny official web site\r\nshinyapps.io — share your Shiny applications online\r\n\r\n\r\n\r\n",
     "preview": "https://www.rstudio.com/assets/img/og/shiny-og-fb.jpg",
-    "last_modified": "2022-10-12T14:08:55+00:00",
+    "last_modified": "2022-10-19T13:41:11+00:00",
     "input_file": {}
   }
 ]
