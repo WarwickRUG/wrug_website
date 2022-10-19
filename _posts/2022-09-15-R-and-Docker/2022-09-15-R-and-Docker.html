@@ -87,34 +87,37 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Code Review</title>
+  <title>R and Docker</title>
 
+  <meta property="description" itemprop="description" content="In this online event, we continue the reproducibility theme from our last meetup, with James Tripp introducing Docker containers and how they can be used with R. See full details below."/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2022-05-25"/>
-  <meta property="article:created" itemprop="dateCreated" content="2022-05-25"/>
-  <meta name="article:author" content="Iain Emsley"/>
+  <meta property="article:published" itemprop="datePublished" content="2022-09-15"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-09-15"/>
+  <meta name="article:author" content="James Tripp"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Code Review"/>
+  <meta property="og:title" content="R and Docker"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="In this online event, we continue the reproducibility theme from our last meetup, with James Tripp introducing Docker containers and how they can be used with R. See full details below."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Code Review"/>
+  <meta property="twitter:title" content="R and Docker"/>
+  <meta property="twitter:description" content="In this online event, we continue the reproducibility theme from our last meetup, with James Tripp introducing Docker containers and how they can be used with R. See full details below."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","author","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Code Review"]},{"type":"character","attributes":{},"value":["talks","reviews"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Iain Emsley"]}]}]},{"type":"character","attributes":{},"value":["2022-05-25"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","preview","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["R and Docker"]},{"type":"character","attributes":{},"value":["In this online event, we continue the reproducibility theme from our last meetup, with James Tripp introducing Docker containers and how they can be used with R. See full details below.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["James Tripp"]},{"type":"character","attributes":{},"value":["https://jamestripp.net"]},{"type":"character","attributes":{},"value":["0000-0003-2471-3411"]}]}]},{"type":"character","attributes":{},"value":["2022-09-15"]},{"type":"character","attributes":{},"value":["talks","reproducibility"]},{"type":"character","attributes":{},"value":["figure.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["resources/Code_Review.pdf"]}
+  {"type":"character","attributes":{},"value":["2022-09-15-R-and-Docker_files/anchor-4.2.2/anchor.min.js","2022-09-15-R-and-Docker_files/bowser-1.9.3/bowser.min.js","2022-09-15-R-and-Docker_files/distill-2.2.21/template.v2.js","2022-09-15-R-and-Docker_files/header-attrs-2.11/header-attrs.js","2022-09-15-R-and-Docker_files/jquery-3.6.0/jquery-3.6.0.js","2022-09-15-R-and-Docker_files/jquery-3.6.0/jquery-3.6.0.min.js","2022-09-15-R-and-Docker_files/jquery-3.6.0/jquery-3.6.0.min.map","2022-09-15-R-and-Docker_files/popper-2.6.0/popper.min.js","2022-09-15-R-and-Docker_files/tippy-6.2.7/tippy-bundle.umd.min.js","2022-09-15-R-and-Docker_files/tippy-6.2.7/tippy-light-border.css","2022-09-15-R-and-Docker_files/tippy-6.2.7/tippy.css","2022-09-15-R-and-Docker_files/tippy-6.2.7/tippy.umd.min.js","2022-09-15-R-and-Docker_files/webcomponents-2.0.0/webcomponents.js","figure.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1435,16 +1438,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="2022-05-17-code-review_files/header-attrs-2.11/header-attrs.js"></script>
-  <script src="2022-05-17-code-review_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <script src="2022-05-17-code-review_files/popper-2.6.0/popper.min.js"></script>
-  <link href="2022-05-17-code-review_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="2022-05-17-code-review_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="2022-05-17-code-review_files/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="2022-05-17-code-review_files/anchor-4.2.2/anchor.min.js"></script>
-  <script src="2022-05-17-code-review_files/bowser-1.9.3/bowser.min.js"></script>
-  <script src="2022-05-17-code-review_files/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="2022-05-17-code-review_files/distill-2.2.21/template.v2.js"></script>
+  <script src="2022-09-15-R-and-Docker_files/header-attrs-2.11/header-attrs.js"></script>
+  <script src="2022-09-15-R-and-Docker_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="2022-09-15-R-and-Docker_files/popper-2.6.0/popper.min.js"></script>
+  <link href="2022-09-15-R-and-Docker_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="2022-09-15-R-and-Docker_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="2022-09-15-R-and-Docker_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="2022-09-15-R-and-Docker_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="2022-09-15-R-and-Docker_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="2022-09-15-R-and-Docker_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="2022-09-15-R-and-Docker_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1456,7 +1459,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Code Review","authors":[{"author":"Iain Emsley","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-05-25T00:00:00.000+01:00","citationText":"Emsley, 2022"}
+{"title":"R and Docker","description":"In this online event, we continue the reproducibility theme from our last meetup, with James Tripp introducing Docker containers and how they can be used with R. See full details below.","authors":[{"author":"James Tripp","authorURL":"https://jamestripp.net","affiliation":"&nbsp;","affiliationURL":"#","orcidID":"0000-0003-2471-3411"}],"publishedDate":"2022-09-15T00:00:00.000+01:00","citationText":"Tripp, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1466,26 +1469,46 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Code Review</h1>
+<h1>R and Docker</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
 <div class="dt=tag">talks</div>
-<div class="dt=tag">reviews</div>
+<div class="dt=tag">reproducibility</div>
 </div>
 <!--/radix_placeholder_categories-->
-
+<p><p>In this online event, we continue the reproducibility theme from
+our last meetup, with James Tripp introducing Docker containers and how
+they can be used with R. See full details below.</p></p>
 </div>
 
 <div class="d-byline">
-  Iain Emsley  
+  James Tripp <a href="https://jamestripp.net"
+class="uri">https://jamestripp.net</a> 
   
-<br/>2022-05-25
+<br/>2022-09-15
 </div>
 
 <div class="d-article">
-<h2 id="resources">Resources:</h2>
+<p>In this online event, we continue the reproducibility theme from our
+last meetup, with James Tripp introducing Docker containers and how they
+can be used with R. See full details below.</p>
+<p><strong>Speaker</strong> James Tripp, Senior Research Software
+Engineer, Information and Digital Group, University of Warwick</p>
+<p><strong>Abstract</strong> Docker is a container technology which
+allows you to specify and build a compute environment. You can run the
+environment on your local machine and both the instructions for creating
+the environment and the environment itself can be shared. In this talk I
+will (a) introduce containers, (b) discuss a worked examples of using
+Docker with R, and (c) consider how containers can help us do better
+research. Hopefully this presentation will help those of you who have
+never used Docker to consider if you want to use Docker in your own work
+and where to start.</p>
+<h2 id="resources">Resources</h2>
 <ul>
-<li><a href="resources/Code_Review.pdf">Talk slides</a></li>
+<li><a href="https://jamestripp.github.io/RandDocker/"
+target="_blank">Slides</a></li>
+<li><a href="https://github.com/jamestripp/RandDocker"
+target="_blank">Source code</a></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
