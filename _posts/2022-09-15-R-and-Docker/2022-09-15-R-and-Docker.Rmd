@@ -28,5 +28,5 @@ Docker is a container technology which allows you to specify and build a compute
 
 ## Resources
 
-* [Slides](https://jamestripp.github.io/RandDocker/)
-* [Source code](https://github.com/jamestripp/RandDocker)
+* [Slides](https://jamestripp.github.io/RandDocker/){target="_blank"}
+* [Source code](https://github.com/jamestripp/RandDocker){target="_blank"}
