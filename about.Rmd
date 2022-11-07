@@ -56,6 +56,16 @@ person_info(name = "Heather Turner",
 ```
 :::
 
+::: {#person6}
+```{r, results = "asis"}
+person_info(name = "Ella Kaye",
+            pic = "media/ella_profile.jpeg",
+            alt = "Headshot of Ella, smiling. She is a white woman in her 30s (in this picture) with short dark hair.",
+            website = "https://ellakaye.co.uk",
+            email = "Ella.M.Kaye@warwick.ac.uk")
+```
+:::
+
 :::
 
 
