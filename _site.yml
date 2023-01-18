@@ -20,6 +20,9 @@ navbar:
 output:
   distill::distill_article:
     md_extensions: "+link_attributes"
+    includes:
+      in_header:
+      - _includes/mastodon.html
 collections:
   posts: 
     categories: true
