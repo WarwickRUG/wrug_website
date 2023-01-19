@@ -4,6 +4,8 @@ description: |
   Nicole Schwitter introduces how R can be used to collect data from web pages.
 author:
   - name: Nicole Schwitter
+    url: https://nschwitter.github.io/index.html
+    orcid_id: 0000-0002-3837-680X
 date: 2022-12-08
 categories:
   - talks
