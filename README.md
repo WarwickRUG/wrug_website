@@ -5,7 +5,7 @@
 
 Warwick R User Group website, created using [`Distill`](https://pkgs.rstudio.com/distill/index.html).
 
-Some icons obtained from [Reshot](https://www.reshot.com/).
+Some icons obtained from [Reshot](https://www.reshot.com/). 
 
 ## Installation
 
