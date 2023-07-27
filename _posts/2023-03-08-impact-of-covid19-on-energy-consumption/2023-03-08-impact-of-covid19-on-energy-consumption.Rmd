@@ -1,0 +1,19 @@
+---
+title: "Using Predictive Modelling to Study the Impact of COVID-19 on Energy Consumption"
+description: |
+  Using elastic net regression and neural network models to predict what would have happened in the absence of the pandemic, and comparing these ‘counterfactuals’ with observed electricity and gas consumption in several hundred households. 
+author:
+  - name: Ellen Zapata-Webborn
+    url: https://www.ellenwebborn.com/
+date: 2023-03-08
+categories:
+  - talks
+  - modelling
+preview: windfarm.jpeg
+output:
+  distill::distill_article:
+    self_contained: false
+draft: false
+---
+
+How did COVID-19 affect household energy consumption in the UK? How did changes continue or change in the 2 years since the start of lockdown 1? How have different types of households been affected differently? To answer these questions we developed elastic net regression and neural network models to predict what would have happened in the absence of the pandemic, and compared these 'counterfactuals' with observed electricity and gas consumption in several hundred households. The analysis was all done in R, with packages {data.table}, {caret}, {glmnet}, and {xgboost} doing most of the heavy lifting. In this talk I describe our approaches, the challenges we faced along the way, and what we found out.
