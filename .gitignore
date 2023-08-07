@@ -6,4 +6,4 @@
 # Deployed website folder.
 docs/
 
-.DS_Store
+**/.DS_Store
