@@ -18,7 +18,7 @@
     ],
     "contents": "\nIn this talk I introduce {htmlwidgets} - the collection of packages\nyou wish you knew. With these packages you can create interactive\ncharts, graphs, tables and maps all in R without needing to learn any\nJavaScript.\nOn top of {htmlwidgets}, I will also demonstrate the fundamentals of\nusing {shiny} to build server applications all with R - and show how to\ncombine these with {htmlwidgets} to build impressive and beautiful\ntools.\nI have a background in reproducible research methodologies, so I will\ntalk about how you can use these tools to create an end-to-end\nreproducible Open Data workflow. The same workflow used by the\nUniversity of Oxford’s Interactive Data Network that I helped\nlaunch.\nResources\nGitHub repository - slides and example code.\n\n\n\n",
     "preview": "posts/2023-05-16-interactive-data-visualisation/packages.jpeg",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -36,9 +36,9 @@
       "talks",
       "modelling"
     ],
-    "contents": "\nThe COVID-19 pandemic changed the way people lived, worked, and\nstudied around the world, with direct consequences for domestic energy\nuse. In this talk I present our study which assessed the impact of\nCOVID-19 lockdowns in the first two years of the pandemic on household\nelectricity and gas use in England and Wales. I explain how I used R for\nthe machine learning and how I made the figures (see .Rmd file for\nfigure code).\nUsing data for 508 (electricity) and 326 (gas) homes, elastic net\nregression, neural network and extreme gradient boosting predictive\nmodels were trained and tested on pre-pandemic data. The most accurate\nmodel for each household was used to create counterfactuals (predictions\nin the absence of COVID-19) against which observed pandemic energy use\nwas compared. Our analysis showed that on average (electricity; gas)\nconsumption increased by (7.8%; 5.7%) in year 1 of the pandemic and by\n(2.2%; 0.2%) in year 2. The greatest increases were in the winter\nlockdown (January – March 2021) by 11.6% and 9.0% for electricity and\ngas, respectively. At the start of 2022 electricity use remained 2.0%\nhigher while gas use was around 1.9% lower than predicted. Households\nwith children showed the greatest increase in electricity consumption\nduring lockdowns, followed by those with adults in work. Wealthier\nhouseholds increased their electricity consumption by more than the less\nwealthy and continued to use more than predicted throughout the two-year\nperiod while the less wealthy returned to pre-pandemic or lower\nconsumption from summer 2021. Low dwelling efficiency was associated\nwith a greater increase in energy consumption during the pandemic.\nAdditionally, this study shows the value of different machine learning\ntechniques for counterfactual modelling at the individual-dwelling\nlevel, and our approach can be used to robustly estimate the impact of\nother events and interventions.\nResources\nSlides\nCode for figures\nPre-print\n\n\n\n",
+    "contents": "\nThe COVID-19 pandemic changed the way people lived, worked, and\nstudied around the world, with direct consequences for domestic energy\nuse. In this talk I present our study which assessed the impact of\nCOVID-19 lockdowns in the first two years of the pandemic on household\nelectricity and gas use in England and Wales. I explain how I used R for\nthe machine learning and how I made the figures (see .Rmd file for\nfigure code).\nUsing data for 508 (electricity) and 326 (gas) homes, elastic net\nregression, neural network and extreme gradient boosting predictive\nmodels were trained and tested on pre-pandemic data. The most accurate\nmodel for each household was used to create counterfactuals (predictions\nin the absence of COVID-19) against which observed pandemic energy use\nwas compared. Our analysis showed that on average (electricity; gas)\nconsumption increased by (7.8%; 5.7%) in year 1 of the pandemic and by\n(2.2%; 0.2%) in year 2. The greatest increases were in the winter\nlockdown (January – March 2021) by 11.6% and 9.0% for electricity and\ngas, respectively. At the start of 2022 electricity use remained 2.0%\nhigher while gas use was around 1.9% lower than predicted. Households\nwith children showed the greatest increase in electricity consumption\nduring lockdowns, followed by those with adults in work. Wealthier\nhouseholds increased their electricity consumption by more than the less\nwealthy and continued to use more than predicted throughout the two-year\nperiod while the less wealthy returned to pre-pandemic or lower\nconsumption from summer 2021. Low dwelling efficiency was associated\nwith a greater increase in energy consumption during the pandemic.\nAdditionally, this study shows the value of different machine learning\ntechniques for counterfactual modelling at the individual-dwelling\nlevel, and our approach can be used to robustly estimate the impact of\nother events and interventions.\nResources\nSlides\nCode for figures\nJournal article: Zapata-Webborn, E et al (2023). The\nimpact of COVID-19 on household energy consumption in England and Wales\nfrom April 2020 to March 2022, Energy and Buildings,\n297:113428, https://doi.org/10.1016/j.enbuild.2023.113428.\n\n\n\n",
     "preview": "posts/2023-03-08-impact-of-covid19-on-energy-consumption/windfarm.jpeg",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -58,7 +58,7 @@
     ],
     "contents": "\nSpeaker: Nicole Schwitter, PhD student, Department\nof Sociology, University of Warwick\nAbstract: The rise of the internet and mass\ndigitalisation have led to vast amounts of digital data in recent years.\nThese novel digital sources of data are used to gain new insights into\nold and new questions of data-driven sciences: From election results to\npress releases, social media posts or user reviews, research now often\nmakes use of data that is online. Many modern commercial websites await\nuser input and/or display dynamic web content which is generated on the\nfly via JavaScript technologies. Standard techniques of web-scraping\nwhich are well-suited to collect information from static pages will fail\nin these instances. In such cases, it is necessary to automate the\nbrowser to visit websites, click buttons, and fill in forms by itself -\na task the tool Selenium fulfils. This talk will give a brief overview\nof approaches towards web scraping and an introduction to the R package\nRSelenium. The presentation will highlight use cases of RSelenium, show\nits potential, and give a starting point to those who have never used\nit.\nResources\nSlides\nR Markdown\nworkbook - HTML output\nR Markdown workbook - source\n\n\n\n",
     "preview": "posts/2022-12-08-web-scraping-with-rselenium/figure.png",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -78,7 +78,7 @@
     ],
     "contents": "\nIn this online event, we continue the reproducibility theme from our\nlast meetup, with James Tripp introducing Docker containers and how they\ncan be used with R. See full details below.\nSpeaker James Tripp, Senior Research Software\nEngineer, Information and Digital Group, University of Warwick\nAbstract Docker is a container technology which\nallows you to specify and build a compute environment. You can run the\nenvironment on your local machine and both the instructions for creating\nthe environment and the environment itself can be shared. In this talk I\nwill (a) introduce containers, (b) discuss a worked examples of using\nDocker with R, and (c) consider how containers can help us do better\nresearch. Hopefully this presentation will help those of you who have\nnever used Docker to consider if you want to use Docker in your own work\nand where to start.\nResources\nSlides\nSource code\n\n\n\n",
     "preview": "posts/2022-09-15-R-and-Docker/figure.png",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -98,7 +98,7 @@
     ],
     "contents": "\nAt the end of our previous\npresentation by Iain Emsley on code review we had an interesting\ndiscussion on the need for reproducibility. This talk introduces the\nconcept of reproducibility and focuses on one of it’s many facets: that\nof managing R script’s dependencies.\nIn order to do so, two different methods will be presented, compared\nand discussed: the simple yet works-out-of-the-box {automagic} and the\nmore complex, yet backed up by RStudio, {renv}\nAt the end of the session, points in common as well as limitations\nwill be highlighted, hopefully leading to a discussion and opening the\ndoor for the second talk of the reproducibility series.\nResources\nSlides\nSource code\n\n\n\n",
     "preview": "posts/2022-07-14-dependencies/figure.png",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -118,7 +118,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -138,7 +138,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides\r\nbnmonitor package on CRAN\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-03-09-bnmonitorpackage/resources/bnmonitor_preview.png",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -158,7 +158,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-03-09-nationalgrid/resources/preview.png",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -185,7 +185,7 @@
     ],
     "contents": "\r\nAfter some time without much activity, we’re back with plenty of ideas!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -205,7 +205,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides\r\nggplot2 package documentation\r\nggChernoff package on GitHub\r\n\r\n\r\n\r\n",
     "preview": "posts/2017-02-16-grammar-graphics/figure.png",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -225,7 +225,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides\r\nanimation package on CRAN\r\nanimation package on github\r\n\r\n\r\n\r\n",
     "preview": "https://assets.yihui.org/figures/animation/example/grad-desc/demo-a.gif",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -245,7 +245,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides \r\nRelevant paper: Error Bars Considered Harmful \r\n\r\n\r\n\r\n",
     "preview": "https://i.dailymail.co.uk/i/pix/2010/11/08/article-1327845-0BF704CC000005DC-414_468x286.jpg",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -265,7 +265,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides\r\nemojifont package on CRAN\r\nemoGG package on GitHub\r\n\r\n\r\n\r\n",
     "preview": "posts/2017-01-19-emojiplots/resources/emoji_plots.png",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   },
   {
@@ -285,7 +285,7 @@
     ],
     "contents": "\r\nResources:\r\nTalk slides\r\nexample Shiny app \r\nShiny official web site\r\nshinyapps.io — share your Shiny applications online\r\n\r\n\r\n\r\n",
     "preview": "https://www.rstudio.com/assets/img/og/shiny-og-fb.jpg",
-    "last_modified": "2023-08-07T09:45:55+00:00",
+    "last_modified": "2023-08-16T08:39:54+00:00",
     "input_file": {}
   }
 ]
