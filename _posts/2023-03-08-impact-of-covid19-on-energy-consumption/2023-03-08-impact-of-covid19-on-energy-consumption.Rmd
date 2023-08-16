@@ -25,4 +25,5 @@ Using data for 508 (electricity) and 326 (gas) homes, elastic net regression, ne
 
 * [Slides](resources/2023-03-08-impact-of-covid19-on-energy-consumption.pptx)
 * [Code for figures](resources/2023-03-08-impact-of-covid19-on-energy-consumption.Rmd){target="_blank"}
-* [Pre-print](https://doi.org/10.31219/osf.io/m5p3b){target="_blank"}
+* [Journal article](https://www.sciencedirect.com/science/article/pii/S0378778823006588){target="_blank"}: Zapata-Webborn, E et al (2023). The impact of COVID-19 on household energy consumption in England and Wales from April 2020 to March 2022, *Energy and Buildings*, 297:113428, <https://doi.org/10.1016/j.enbuild.2023.113428>.
+
