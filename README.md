@@ -1,5 +1,5 @@
 >## Archived repo
->This repository has been superseeded by https://github.com/WarwickRUG/WarwickRUG.github.io Any new development to WRUG's website will take place there, and this one will be archived. 
+>This repository was superseded by https://github.com/WarwickRUG/WarwickRUG.github.io in 2023, so this repository has been archived. 
 
 # Warwick R User Group Website
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -83,3 +83,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
